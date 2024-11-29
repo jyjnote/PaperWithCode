@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="gender_female <= 0.5\ngini = 0.47\nsamples = 916\nvalue = [570, 346]\nclass = 죽는다"] ;
+1 [label="age <= 0.061\ngini = 0.215\nsamples = 580\nvalue = [509, 71]\nclass = 죽는다"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="sibsp <= 0.375\ngini = 0.48\nsamples = 15\nvalue = [6, 9]\nclass = 산다"] ;
+1 -> 2 ;
+3 [label="gini = 0.298\nsamples = 11\nvalue = [2, 9]\nclass = 산다"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]\nclass = 죽는다"] ;
+2 -> 4 ;
+5 [label="fare <= 0.051\ngini = 0.195\nsamples = 565\nvalue = [503, 62]\nclass = 죽는다"] ;
+1 -> 5 ;
+6 [label="gini = 0.127\nsamples = 411\nvalue = [383, 28]\nclass = 죽는다"] ;
+5 -> 6 ;
+7 [label="gini = 0.344\nsamples = 154\nvalue = [120, 34]\nclass = 죽는다"] ;
+5 -> 7 ;
+8 [label="pclass <= 0.75\ngini = 0.297\nsamples = 336\nvalue = [61, 275]\nclass = 산다"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="fare <= 0.056\ngini = 0.063\nsamples = 183\nvalue = [6, 177]\nclass = 산다"] ;
+8 -> 9 ;
+10 [label="gini = 0.134\nsamples = 69\nvalue = [5, 64]\nclass = 산다"] ;
+9 -> 10 ;
+11 [label="gini = 0.017\nsamples = 114\nvalue = [1, 113]\nclass = 산다"] ;
+9 -> 11 ;
+12 [label="fare <= 0.041\ngini = 0.461\nsamples = 153\nvalue = [55.0, 98.0]\nclass = 산다"] ;
+8 -> 12 ;
+13 [label="gini = 0.408\nsamples = 126\nvalue = [36, 90]\nclass = 산다"] ;
+12 -> 13 ;
+14 [label="gini = 0.417\nsamples = 27\nvalue = [19, 8]\nclass = 죽는다"] ;
+12 -> 14 ;
+}

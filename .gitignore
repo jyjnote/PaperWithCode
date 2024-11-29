@@ -1,0 +1,39 @@
+# Jupyter Notebook 체크포인트 파일 무시
+.ipynb_checkpoints/
+
+# Trash 폴더 무시
+.Trash-0/
+
+# 모든 위치에 있는 'weight' 폴더 무시
+**/weight/
+
+# 모든 'data' 폴더 무시 (각 챕터별 폴더 안의 'data' 포함)
+**/data/
+**/dezero/
+**/build/
+**/dist/
+**/envs/
+**/AutogluonModels/
+**/torch_j.egg-info/
+**/dataset/
+# .data 폴더 무시
+.data/
+
+# 04_NLP 폴더 무시
+**/flickr8k/
+.flickr8k/
+
+# .pkl 파일 무시
+**/.pkl/
+.pkl/
+
+# 특정 파일 무시
+03_Deep_Learning/special_part/dataset/mnist.pkl
+05_CV/Face Mask Detection.zip
+03_Deep_Learning/special_part/mnist.pkl
+01_numpy&pandas/data.csv
+01_numpy&pandas/제목 없는 스프레드시트.xlsx
+03_Deep_Learning/special_part/deep_convnet_params.pkl
+03_Deep_Learning/special_part/deep-learning-from-scratch-master.zip
+03_Deep_Learning/special_part/equations_and_figures.zip
+03_Deep_Learning/**/*.pkl

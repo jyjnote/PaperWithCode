@@ -1,4 +1,4 @@
-# 🤗강의 소개🤗(Course Introduction) <sub>-제작자:정재연-<sub>
+# 🤗소개🤗(Course Introduction) <sub>-제작자:정재연-<sub>
 
  이 레파지토리는 인공지능을 깊이 있게 다루며, 논문 리뷰 및 코드 구현을 통해 실질적인 이해를 목표로합니다.
 

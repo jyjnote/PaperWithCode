@@ -17,7 +17,7 @@
 **/torch_j.egg-info/
 **/dataset/
 # .data 폴더 무시
-.data/
+**/data/
 
 # 04_NLP 폴더 무시
 **/flickr8k/

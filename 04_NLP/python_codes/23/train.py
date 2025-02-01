@@ -53,6 +53,7 @@ def start(train_arr,target,collate_fn):
     from tqdm import tqdm
     from data import ReviewDataset
     from model import Net
+    
     best_score_list = []
     for i, (tri, vai) in enumerate( cv.split(train_arr) ):
         # 학습용 데이터로더 객체

@@ -18,7 +18,10 @@
 **/dataset/
 # .data 폴더 무시
 **/data/
-
+**/models/
+**/runs/
+**/PennFudanPed/
+**/checkpoint/
 # 04_NLP 폴더 무시
 **/flickr8k/
 .flickr8k/

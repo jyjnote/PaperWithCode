@@ -254,15 +254,18 @@ and its application in retrieval</a></td>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">AlexNet</span></small></b></td>
-      <td><a href="https://arxiv.org/pdf/1301.6770">https://arxiv.org/pdf/1301.6770</a>, <a href="https://www.staff.city.ac.uk/~sbrp622/idfpapers/ksj_orig.pdf">https://www.staff.city.ac.uk/~sbrp622/idfpapers/ksj_orig.pdf</a></td>
-      <td></td>
+      <td><a href="https://arxiv.org/pdf/1301.6770">https://arxiv.org/pdf/1301.6770</a>, <a href="https://www.staff.city.ac.uk/~sbrp622/idfpapers/ksj_orig.pdf"></a>
+      </td>
+      <a href="https://drive.google.com/file/d/1XKBEXIAmFsMSHdHDSb66aVDcy7GYBz2E/view?usp=drive_link">논문 리뷰</a>
       <td></td>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">EfficientNet</span></small></b></td>
       <td><a href="https://arxiv.org/pdf/1301.6770">https://arxiv.org/pdf/1301.6770</a></td>
       <td></td>
-      <td></td>
+      <td>
+      <td><a href="https://drive.google.com/file/d/178gguYXBiLk-Py_Q2er1W2MeGIpumzPs/view?usp=drive_link">논문 리뷰</a></td>
+      </td>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">GoogleNet</span></small></b></td>

@@ -4,10 +4,9 @@
 
 함께 진행하는 이 강의에서는 전통적인 딥런닝 이론부터 최신 처리 기술과 모델을 학습할 수 있습니다. 모든 코드는 <footnotesize><strong style="color:#ED5466">PyTorch</strong></footnotesize>로 제작되었으며, 실습 데이터를 통해 직접 실험할 수 있습니다. 또한, 논문과의 연관성을 강조합니다.
 
-특히, 이 강의는 자연어 처리 분야에서 전문가가 되고자 하는 분들, 인공지능에 관심이 많고 대학원 진학을 목표로 깊이 있는 공부를 원하는 분들에게 최적화되어 있습니다. 여러분이 자연어 처리의 전문가로 성장할 수 있도록, 최신 연구와 실습을 통해 깊이 있는 학습 경험을 제공합니다.
+특히, 이 레파지토리는 전문가가 되고자 하는 분들, 인공지능에 관심이 많고 대학원 진학을 목표로 깊이 있는 공부를 원하는 분들에게 최적화되어 있습니다. 여러분이 전문가로 성장할 수 있도록, 최신 연구와 실습을 통해 깊이 있는 학습 경험을 제공합니다.
 
 
-https://github.com/labmlai/annotated_deep_learning_paper_implementations?tab=readme-ov-file
 ### 다양한 도구와 툴
 
 이 강의에서는 다음과 같은 도구들과 라이브러리를 활용하여 실습을 진행할 수 있습니다:
@@ -248,60 +247,94 @@ and its application in retrieval</a></td>
   <table>
     <tr>
       <th>논문 주제</th>
-      <th>참고문헌</th>
+      <th>논문</th>
       <th>리뷰 및 요약</th>
       <th>코드구현</th>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">AlexNet</span></small></b></td>
-      <td><a href="https://arxiv.org/pdf/1301.6770">https://arxiv.org/pdf/1301.6770</a>, <a href="https://www.staff.city.ac.uk/~sbrp622/idfpapers/ksj_orig.pdf"></a>
-      </td>
-      <a href="https://drive.google.com/file/d/1XKBEXIAmFsMSHdHDSb66aVDcy7GYBz2E/view?usp=drive_link">논문 리뷰</a>
-      <td></td>
-    </tr>
-    <tr>
-      <td><b><small><span style="color:#FFFF99">EfficientNet</span></small></b></td>
       <td><a href="https://arxiv.org/pdf/1301.6770">https://arxiv.org/pdf/1301.6770</a></td>
-      <td></td>
-      <td>
-      <td><a href="https://drive.google.com/file/d/178gguYXBiLk-Py_Q2er1W2MeGIpumzPs/view?usp=drive_link">논문 리뷰</a></td>
-      </td>
+      <td><a href="https://drive.google.com/file/d/1XKBEXIAmFsMSHdHDSb66aVDcy7GYBz2E/view?usp=drive_link">AlexNet Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/01_AlexNet">AlexNet Code</a></td>
     </tr>
     <tr>
-      <td><b><small><span style="color:#FFFF99">GoogleNet</span></small></b></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><b><small><span style="color:#FFFF99">VGG16</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1409.1556">https://arxiv.org/pdf/1409.1556</a></td>
+      <td><a href="https://drive.google.com/file/d/178gguYXBiLk-Py_Q2er1W2MeGIpumzPs/view?usp=drive_link">VGG16 Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/02_VGG">VGG16 Code</a></td>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">RCNN</span></small></b></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><a href="https://arxiv.org/pdf/1311.2524">https://arxiv.org/pdf/1311.2524</a></td>
+      <td><a href="https://drive.google.com/file/d/10J0nLU0GlfqUR3ye2egxsJMNKCpSJUii/view?usp=drive_link">RCNN Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/03_RCNN">RCNN Code</a></td>
     </tr>
     <tr>
-      <td><b><small><span style="color:#FFFF99">BGG16</span></small></b></td>
-      <td><a href="https://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf">https://www.cs.utoronto.ca/~hinton/absps/naturebp.pdf</a></td>
-      <td></td>
-      <td></td>
+      <td><b><small><span style="color:#FFFF99">GoogleNet</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1409.4842">https://arxiv.org/pdf/1409.4842</a></td>
+      <td><a href="https://drive.google.com/file/d/17kmkDdQAHk0BKV6poqz0O4Ct5uYMzQNP/view?usp=drive_link">GoogleNet Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/04_GoogleNet">GoogleNet Code</a></td>
     </tr>
     <tr>
-      <td><b><small><span style="color:#FFFF99">VIT</span></small></b></td>
-      <td><a href="https://deeplearning.cs.cmu.edu/S23/document/readings/LSTM.pdf">https://deeplearning.cs.cmu.edu/S23/document/readings/LSTM.pdf</a></td>
+      <td><b><small><span style="color:#FFFF99">ResNet</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1512.03385">https://arxiv.org/pdf/1512.03385</a></td>
+      <td><a href="https://drive.google.com/file/d/1EI43FJ5KeYGhKn90yiFClsjMJnC3V0td/view?usp=drive_link">ResNet Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/06_Resnet">ResNet Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">Faster RCNN</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1506.01497">https://arxiv.org/pdf/1506.01497</a></td>
+      <td><a href="https://drive.google.com/file/d/19DgB-HShOnho1M3SgPGqRYm-U9bCqytH/view?usp=drive_link">Faster RCNN Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/07_Faster_rcnn">Faster RCNN Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">GoogleNet V4</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1602.07261">https://arxiv.org/pdf/1602.07261</a></td>
+      <td><a href="https://drive.google.com/file/d/1t3_6xg5da9NB2vwrzjv4qa3T50wd87ch/view?usp=drive_link">GoogleNet V4 Review</a></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/08_GooglenetV4">GoogleNet V4 Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">SSD</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1512.02325">https://arxiv.org/pdf/1512.02325</a></td>
       <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/09_SSD">SSD Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">DeepLab V3</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1706.05587">https://arxiv.org/pdf/1706.05587</a></td>
       <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/10_DeepLab%20V3">DeepLab V3 Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">Sniper</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1805.09300">https://arxiv.org/pdf/1805.09300</a></td>
+      <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/11_Sniper">Sniper Code</a></td>
     </tr>
     <tr>
       <td><b><small><span style="color:#FFFF99">YoloV3</span></small></b></td>
-      <td><a href="https://arxiv.org/pdf/1409.3215">https://arxiv.org/pdf/1409.3215</a></td>
+      <td><a href="https://arxiv.org/pdf/1804.02767">https://arxiv.org/pdf/1804.02767</a></td>
       <td></td>
-      <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/12_YoloV3">YoloV3 Code</a></td>
     </tr>
     <tr>
-      <td><b><small><span style="color:#FFFF99">stable_diffusion</span></small></b></td>
+      <td><b><small><span style="color:#FFFF99">EfficientNet</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/1905.11946">https://arxiv.org/pdf/1905.11946</a></td>
       <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/13_EfficiontNet">EfficientNet Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">VIT</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/2010.11929">https://arxiv.org/pdf/2010.11929</a></td>
       <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/15_ViT">VIT Code</a></td>
+    </tr>
+    <tr>
+      <td><b><small><span style="color:#FFFF99">Stable Diffusion</span></small></b></td>
+      <td><a href="https://arxiv.org/pdf/2112.10752">https://arxiv.org/pdf/2112.10752</a></td>
       <td></td>
+      <td><a href="https://github.com/jyjnote/PaperWithCode/tree/main/05_CV/16_Stabledifusion">Stable Diffusion Code</a></td>
     </tr>
   </table>
 </div>
+

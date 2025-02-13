@@ -1,0 +1,11 @@
+model_kwargs:
+  embed_dim: 256
+  hidden_dim: 512
+  num_heads: 8
+  num_layers: 6
+  patch_size: 4
+  num_channels: 3
+  num_patches: 64
+  num_classes: 10
+  dropout: 0.2
+lr: 0.0003
